@@ -4,6 +4,7 @@
 
 .column img{
     width: 100%;
+    padding: 0px;
 }
 
 .column{
@@ -15,12 +16,48 @@
     background-color: lightgrey;
 }
 
-#option{
+.options{
     width: 100%;
     height: 100%;
     background-color: black;
     color: white;
     position: absolute;
-    bottom: 0;
-    /* bottom: 680px; */
+    bottom: 100%;
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.options p{
+    font-size: 40px;
+    color: grey;
+}
+
+.options p:hover{
+    color: white;
+}
+
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 45px;
+}
+
+.grid-toggle{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+
+.grid-toggle:hover{
+    background-color: lightgrey;
+    color: grey;
+}
+
+
