@@ -52,6 +52,7 @@
     background-color: grey;
     color: white;
     cursor: pointer;
+    user-select: none;
 }
 
 
